@@ -21,4 +21,22 @@ body {
   background: var(--bg-primary);
   font-family: "Roboto", sans-serif;
   /* font-family: "Noto Serif Balinese", serif; */
+  color: var(--text-light);
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+/* slider styles */
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: -100px;
+  left: auto;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  color: var(--text-light);
+  font-size: 16px !important;
+}
+/* ============= Responsiveness ============ */
+@media (max-width: 1200px) {
 }

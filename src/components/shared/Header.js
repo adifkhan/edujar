@@ -2,12 +2,8 @@ import React, { useState } from "react";
 import style from "../../styles/header.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
-import {
-  RiCloseLine,
-  RiMenuLine,
-  RiSearchLine,
-  RiShoppingCart2Line,
-} from "react-icons/ri";
+import { RiCloseLine, RiMenuLine } from "react-icons/ri";
+
 const navItems = [
   { title: "Home", link: "#home" },
   { title: "About", link: "#about" },

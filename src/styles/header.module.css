@@ -124,6 +124,9 @@
   }
 }
 @media (max-width: 960px) {
+  .header {
+    padding: 2rem 4rem 1.5rem;
+  }
   .active__menu_icon {
     display: flex;
   }
