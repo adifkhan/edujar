@@ -19,7 +19,7 @@
   line-height: 1.3;
 }
 .banner_heading span {
-  color: var(--bg-secondary);
+  color: var(--text-secondary);
 }
 .banner_content p {
   font-size: 1.4rem;

@@ -62,7 +62,7 @@
 }
 .logo h2 {
   font-size: 2.6rem;
-  /* font-family: var(--fs-balinese); */
+  font-family: var(--fs-balinese);
   color: var(--text-light);
   letter-spacing: 1px;
 }

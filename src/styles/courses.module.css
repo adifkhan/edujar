@@ -1,0 +1,152 @@
+.course_container {
+  padding: 5rem 8rem;
+}
+.course_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button_group {
+  background: var(--bg-emphasis);
+  padding: 0.5rem;
+  border-radius: 25px;
+  display: flex;
+  gap: 0.5rem;
+}
+.button_group button {
+  background: transparent;
+  color: var(--text-light);
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding: 1.2rem 2.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* active_button class can be toggled by using Nablink or other js functions */
+.button_group .active_button,
+.button_group button:hover {
+  background: var(--bg-secondary);
+}
+.course_wrapper {
+  margin-top: 6rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.course_card {
+  flex: 0 0 300px;
+  border: 1px solid var(--bg-emphasis);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.course_card .cardImg {
+  width: 100%;
+  border-radius: 9px 9px 0 0;
+}
+.card_content {
+  padding: 1.5rem;
+  background: var(--bg-accent);
+  border-radius: 0 0 9px 9px;
+}
+.card_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_header span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  color: rgb(194, 198, 202);
+}
+.card_header button {
+  color: rgb(194, 198, 202);
+  background: var(--bg-emphasis);
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 12px;
+}
+.card_title p {
+  font-size: 2rem;
+  text-align: justify;
+  padding: 2rem 0;
+}
+.lecturer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.lecturer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-right: 1px solid gray;
+}
+.lecturer img {
+  width: 25px;
+  height: 25px;
+}
+.lecturer p {
+  font-size: 1.2rem;
+}
+.lecturer span {
+  color: rgb(194, 198, 202);
+}
+.card_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.card_footer a {
+  color: var(--text-light);
+  letter-spacing: 1px;
+}
+/* ============= Responsiveness ============ */
+@media (max-width: 1200px) {
+  .course_container {
+    padding: 5rem 6rem;
+  }
+  .button_group button {
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 960px) {
+  .course_container {
+    padding: 5rem 4rem;
+  }
+  .course_header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .button_group {
+    gap: 0.3rem;
+  }
+  .button_group button {
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 480px) {
+  .course_container {
+    padding: 4rem 2rem;
+  }
+  .button_group button {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
+  .course_card {
+    flex: 1 1 300px;
+  }
+}
