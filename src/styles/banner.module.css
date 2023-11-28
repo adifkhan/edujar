@@ -1,5 +1,6 @@
 .banner_container {
   padding: 5rem 8rem;
+  margin-top: 8rem;
 }
 .banner {
   display: flex;
@@ -59,7 +60,7 @@
 }
 .banner_img {
   width: 400px;
-  background-image: url("../assets/banner-bd.png");
+  background-image: url("../assets/banner-bg.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 75% 20%;
@@ -118,7 +119,7 @@
     width: 300px;
   }
   .slide_container {
-    margin-top: 0;
+    margin-top: 2rem;
     padding: 1.4rem 3rem;
   }
 }
@@ -138,7 +139,7 @@
     width: 100%;
   }
   .slide_container {
-    margin-top: 5rem;
+    margin-top: 7rem;
     padding: 2rem;
   }
   .slide_img img {

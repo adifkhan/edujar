@@ -5,7 +5,7 @@ import BannerSlide from "./BannerSlide";
 
 const Banner = () => {
   return (
-    <div className={style.banner_container} id="#home">
+    <section className={style.banner_container} id="#home">
       <div className={style.banner}>
         <div className={style.banner_content}>
           <div className={style.banner_heading}>
@@ -30,7 +30,7 @@ const Banner = () => {
         <BannerSlide />
         <label>Our Course Partners</label>
       </div>
-    </div>
+    </section>
   );
 };
 

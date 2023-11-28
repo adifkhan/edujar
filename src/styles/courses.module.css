@@ -111,6 +111,20 @@
   color: var(--text-light);
   letter-spacing: 1px;
 }
+.all_course_btn {
+  text-align: center;
+}
+.all_course_btn button {
+  padding: 1rem 3rem;
+  color: var(--text-light);
+  background-color: var(--bg-secondary);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
 /* ============= Responsiveness ============ */
 @media (max-width: 1200px) {
   .course_container {
@@ -144,7 +158,7 @@
   }
   .button_group button {
     padding: 0.3rem 0.5rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .course_card {
     flex: 1 1 300px;

@@ -1,0 +1,142 @@
+.about_container {
+  padding: 5rem 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.about_left {
+  width: 400px;
+}
+.about_left p {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+  color: rgb(194, 198, 202);
+}
+.about_left button {
+  margin-top: 5rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: var(--text-light);
+  background: var(--bg-secondary);
+}
+.about_right {
+  display: flex;
+  gap: 6rem;
+}
+.about_img {
+  width: 400px;
+  background-image: url("../assets/about-bg.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+}
+.about_img img {
+  width: 90%;
+  transform: rotateY(180deg);
+}
+.inventory_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.inventory_card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.inventory_card span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    #aa85fb 0%,
+    #aa85fb 12%,
+    #aa85fb 24%,
+    #aa85fb 24%,
+    #7f56d9 76%,
+    #7f56d9 84%,
+    #7f56d9 92%,
+    #7f56d9 100%
+  );
+}
+.card_details p {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+.card_details label {
+  color: rgb(194, 198, 202);
+}
+/* ============= Responsiveness ============ */
+@media (max-width: 1200px) {
+  .about_container {
+    padding: 5rem 6rem;
+  }
+  .about_left {
+    width: 300px;
+  }
+  .about_left button {
+    margin-top: 3rem;
+  }
+  .about_right {
+    gap: 2rem;
+  }
+  .about_img {
+    width: 380px;
+  }
+}
+@media (max-width: 960px) {
+  .about_container {
+    padding: 5rem 4rem;
+  }
+  .about_left p {
+    margin-top: 2rem;
+  }
+  .about_right {
+    gap: 0;
+  }
+  .about_img {
+    width: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .about_container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+  .about_left {
+    width: 350px;
+  }
+  .about_img {
+    width: 280px;
+  }
+}
+@media (max-width: 480px) {
+  .about_container {
+    padding: 5rem 2rem;
+  }
+  .about_left {
+    width: 100%;
+  }
+  .about_right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_img img {
+    width: 100%;
+  }
+  .inventory_box {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .inventory_card {
+    flex-direction: column;
+  }
+}

@@ -16,7 +16,7 @@ const courses = [img1, img2, img3, img4, img5, img6];
 
 const Courses = () => {
   return (
-    <div className={style.course_container}>
+    <section className={style.course_container} id="course">
       <div className={style.course_header}>
         <div className="heading">
           <h2>
@@ -72,7 +72,10 @@ const Courses = () => {
           </div>
         ))}
       </div>
-    </div>
+      <div className={style.all_course_btn}>
+        <button>Explore All Courses</button>
+      </div>
+    </section>
   );
 };
 
