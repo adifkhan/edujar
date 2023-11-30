@@ -161,6 +161,6 @@
     font-size: 1.1rem;
   }
   .course_card {
-    flex: 1 1 300px;
+    flex: 0 1 350px;
   }
 }

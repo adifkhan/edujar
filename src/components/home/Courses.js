@@ -8,7 +8,7 @@ import img3 from "../../assets/course/course3.jpg";
 import img4 from "../../assets/course/course4.jpg";
 import img5 from "../../assets/course/course5.jpg";
 import img6 from "../../assets/course/course6.jpg";
-import lecturer from "../../assets/course/person.png";
+import lecturer from "../../assets/users/person_2.png";
 import { Link } from "react-router-dom";
 
 //use other details for dinamic course information
