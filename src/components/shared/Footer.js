@@ -54,7 +54,7 @@ const Footer = () => {
               <span>
                 <MdOutlineMailOutline size={12} />
               </span>{" "}
-              michelle.rivera@example.com
+              michelle@example.com
             </p>
           </div>
         </div>
