@@ -22,6 +22,8 @@
   outline: none;
   border-radius: 25px;
   letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.5s ease;
 }
 .subscription_btn button:nth-child(1) {
   background: #ff5156;
@@ -30,6 +32,12 @@
 .subscription_btn button:nth-child(2) {
   background: var(--bg-secondary);
   color: var(--text-light);
+}
+.subscription_btn button:nth-child(1):hover {
+  background: var(--bg-secondary);
+}
+.subscription_btn button:nth-child(2):hover {
+  background: #ff5156;
 }
 
 /* ============= Responsiveness ============ */

@@ -7,6 +7,7 @@
 }
 .about_left {
   width: 400px;
+  position: relative;
 }
 .about_left p {
   font-size: 1.4rem;
@@ -21,6 +22,11 @@
   border-radius: 25px;
   color: var(--text-light);
   background: var(--bg-secondary);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.about_left button:hover {
+  background: #ff5156;
 }
 .about_right {
   display: flex;
@@ -36,6 +42,8 @@
 .about_img img {
   width: 90%;
   transform: rotateY(180deg);
+  animation: floatImage 4s ease-in-out infinite;
+  animation-delay: 1s;
 }
 .inventory_box {
   display: flex;
@@ -65,6 +73,10 @@
     #7f56d9 92%,
     #7f56d9 100%
   );
+  transition: 0.5s ease;
+}
+.inventory_card span:hover {
+  transform: scale(1.2);
 }
 .card_details p {
   font-size: 1.2rem;
@@ -138,5 +150,18 @@
   }
   .inventory_card {
     flex-direction: column;
+  }
+}
+
+/* ============== animations ============== */
+@keyframes floatImage {
+  0% {
+    transform: translateY(0) rotateY(180deg);
+  }
+  50% {
+    transform: translateY(-2.2rem) rotateY(180deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(180deg);
   }
 }

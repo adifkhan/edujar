@@ -25,6 +25,7 @@ const About = () => {
           distinctio harum vero sed animi perferendis
         </p>
         <button>Learn More</button>
+        <div className="layer3"></div>
       </div>
       <div className={style.about_right}>
         <div className={style.about_img}>

@@ -24,6 +24,8 @@ const category = [
 const Categories = () => {
   return (
     <section className={style.category_container} id="category">
+      <div className="layer2"></div>
+      <div className="ring1"></div>
       <div className="heading" style={{ textAlign: "center" }}>
         <h2>
           Most Popular <span>Category</span>

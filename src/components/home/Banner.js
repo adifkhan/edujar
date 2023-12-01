@@ -6,6 +6,7 @@ import BannerSlide from "./BannerSlide";
 const Banner = () => {
   return (
     <section className={style.banner_container} id="#home">
+      <div className="circle1"></div>
       <div className={style.banner}>
         <div className={style.banner_content}>
           <div className={style.banner_heading}>

@@ -3,7 +3,7 @@ import style from "../../styles/banner.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import logo1 from "../../assets/banner/logo1.png";
 import logo2 from "../../assets/banner/logo2.png";
 import logo3 from "../../assets/banner/logo3.png";
@@ -36,7 +36,11 @@ const BannerSlide = () => {
       grabCursor={true}
       navigation={true}
       loop={true}
-      modules={[Navigation]}
+      autoplay={{
+        delay: 500,
+        disableOnInteraction: false,
+      }}
+      modules={[Navigation, Autoplay]}
       breakpoints={{
         300: {
           slidesPerView: 3,

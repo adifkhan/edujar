@@ -15,6 +15,10 @@
   max-width: 1400px;
   margin: 0 auto;
   backdrop-filter: blur(10px);
+  background-image: url("../assets//layer1.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 23% top;
 }
 .active__menu_icon,
 .disabled__menu_icon {
@@ -123,20 +127,21 @@
   transition: 0.4s ease;
 }
 .starting_button:hover {
-  background: var(--text-light);
-  border-color: var(--text-light);
-  color: var(--bg-secondary);
+  background: #ff5156;
+  border-color: #ff5156;
 }
 
 /* ============= Responsiveness ============ */
 @media (max-width: 1200px) {
   .header {
     padding: 2rem 6rem 1.5rem;
+    background-position: 21% top;
   }
 }
 @media (max-width: 960px) {
   .header {
     padding: 2rem 4rem 1.5rem;
+    background-position: 25% top;
   }
   .active__menu_icon {
     display: flex;
@@ -178,6 +183,7 @@
 @media (max-width: 480px) {
   .header {
     padding: 2rem 2rem 1.5rem;
+    background-size: 35px;
   }
   .mini__menu,
   .disabled__mini__menu {

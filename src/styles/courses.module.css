@@ -124,6 +124,10 @@
   outline: none;
   margin-top: 4rem;
   cursor: pointer;
+  transition: 0.5s ease;
+}
+.all_course_btn button:hover {
+  background: #ff5156;
 }
 
 /* ============= Responsiveness ============ */
