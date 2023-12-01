@@ -8,14 +8,14 @@ import Subscription from "../components/home/Subscription";
 
 const Home = () => {
   return (
-    <div>
+    <main>
       <Banner />
       <Courses />
       <Categories />
       <About />
       <Testimonial />
       <Subscription />
-    </div>
+    </main>
   );
 };
 

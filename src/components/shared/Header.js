@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header className={style.header_container}>
       <div className={style.header}>
-        {/* menu icons for small screen */}
+        {/* =====menu icons for small screen===== */}
         <div
           className={
             menuToggle
@@ -44,7 +44,7 @@ const Header = () => {
           <h2>Edujar</h2>
         </div>
 
-        {/* navbar for large screen  */}
+        {/* =====navbar for large screen=====  */}
         <nav className={style.navbar}>
           {navItems.map((item, index) => (
             <Link key={index} to={item.link}>
@@ -57,7 +57,7 @@ const Header = () => {
           <button className={style.starting_button}>Get Started</button>
         </div>
 
-        {/* navbar for small screen  */}
+        {/* =====navbar for small screen=====  */}
         <nav
           className={
             menuToggle ? `${style.mini__menu}` : `${style.disabled__mini__menu}`

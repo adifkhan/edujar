@@ -88,6 +88,7 @@ footer {
   footer {
     padding: 4rem;
   }
+
   .footer_text {
     padding: 0 1rem;
   }
@@ -110,9 +111,12 @@ footer {
     grid-column: span 2;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   footer {
     padding: 4rem 1rem;
+  }
+  .footer_top {
+    gap: 0.5rem;
   }
   .footer_bottom {
     flex-direction: column-reverse;

@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
+  position: relative;
 }
 .about_left {
   width: 400px;
-  position: relative;
 }
 .about_left p {
   font-size: 1.4rem;

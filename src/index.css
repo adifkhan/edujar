@@ -80,7 +80,7 @@ body {
 .layer2 {
   position: absolute;
   left: 0;
-  top: -50%;
+  top: -110px;
   transform: translateY(50%);
   width: 200px;
   height: 150px;
@@ -92,7 +92,7 @@ body {
 .ring1 {
   position: absolute;
   right: 0;
-  top: -50%;
+  top: -110px;
   transform: translateY(50%);
   width: 90px;
   height: 120px;
@@ -103,8 +103,8 @@ body {
 }
 .layer3 {
   position: absolute;
-  left: 0;
-  bottom: -65%;
+  left: 8rem;
+  bottom: -90px;
   width: 160px;
   height: 170px;
   background-image: url("./assets/layer3.png");
@@ -115,16 +115,18 @@ body {
 
 /* ============= Responsiveness ============ */
 @media (max-width: 1200px) {
+  .layer3 {
+    left: 6rem;
+    bottom: -120px;
+  }
 }
 @media (max-width: 960px) {
   .circle1 {
     left: -15px;
   }
-  .layer2 {
-    top: -30%;
-  }
-  .ring1 {
-    top: -30%;
+  .layer3 {
+    left: 4rem;
+    bottom: -140px;
   }
 }
 @media (max-width: 768px) {
@@ -132,32 +134,28 @@ body {
     font-size: 2.6rem;
   }
   .layer2 {
-    top: -20%;
+    width: 180px;
   }
   .ring1 {
-    top: -20%;
+    width: 80px;
+    height: 100px;
+  }
+  .layer3 {
+    left: auto;
+    right: 4rem;
+    bottom: -50px;
+    width: 140px;
+    height: 150px;
   }
 }
 @media (max-width: 480px) {
   .layer2 {
-    width: 150px;
-    top: -15%;
+    width: 160px;
   }
   .ring1 {
     width: 70px;
-    top: -15%;
+  }
+  .layer3 {
+    right: 1rem;
   }
 }
-
-/* ============== animations ============== */
-/* @keyframes floatImage {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-2.4rem);
-  }
-  100% {
-    transform: translateY(0);
-  }
-} */

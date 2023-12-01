@@ -1,14 +1,13 @@
 import React from "react";
 import style from "../../styles/about.module.css";
 import about_svg from "../../assets/about.svg";
-import { PiGraduationCapDuotone } from "react-icons/pi";
 import { LuUsers2 } from "react-icons/lu";
-import { PiVideoCameraThin } from "react-icons/pi";
-import { PiUsersThreeLight } from "react-icons/pi";
+import { PiGraduationCapDuotone,PiVideoCameraThin,PiUsersThreeLight } from "react-icons/pi";
 
 const About = () => {
   return (
     <section className={style.about_container}>
+      <div className="layer3"></div>
       <div className={style.about_left}>
         <div className="heading">
           <h2>
@@ -25,7 +24,6 @@ const About = () => {
           distinctio harum vero sed animi perferendis
         </p>
         <button>Learn More</button>
-        <div className="layer3"></div>
       </div>
       <div className={style.about_right}>
         <div className={style.about_img}>

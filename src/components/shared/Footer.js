@@ -62,11 +62,11 @@ const Footer = () => {
       <section className={style.footer_bottom}>
         <p>Copyright 2023 | All Rights Reserved</p>
         <div className={style.social_links}>
-          <RiFacebookCircleLine />
-          <LuTwitter />
-          <FaInstagram />
-          <CiLinkedin />
-          <FaWhatsapp />
+          <RiFacebookCircleLine size={14} />
+          <LuTwitter size={14} />
+          <FaInstagram size={14} />
+          <CiLinkedin size={14} />
+          <FaWhatsapp size={14} />
         </div>
       </section>
     </footer>
