@@ -2,6 +2,11 @@
   padding: 5rem 8rem;
   margin-top: 8rem;
   position: relative;
+  background-image: radial-gradient(
+    circle 280px at 100% 40%,
+    rgb(56, 49, 129),
+    var(--bg-primary) 100%
+  );
 }
 .banner {
   display: flex;

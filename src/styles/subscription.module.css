@@ -2,6 +2,7 @@
   padding: 4rem 8rem;
   display: flex;
   justify-content: space-evenly;
+  position: relative;
 }
 .subs_text {
   width: 400px;

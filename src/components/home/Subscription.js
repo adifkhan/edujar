@@ -17,6 +17,7 @@ const Subscription = () => {
         <button>Join as Instructor</button>
         <button>Join as Student</button>
       </div>
+      <div className="bnr_bg_effect"></div>
     </section>
   );
 };
