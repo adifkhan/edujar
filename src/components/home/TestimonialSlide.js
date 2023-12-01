@@ -9,7 +9,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const TestimonialSlide = ({ testimonial }) => {
   return (
-    <div>
+    <section>
       <Swiper
         loop={true}
         grabCursor={true}
@@ -50,7 +50,7 @@ const TestimonialSlide = ({ testimonial }) => {
           <FaArrowRight size={18} />
         </div>
       </Swiper>
-    </div>
+    </section>
   );
 };
 

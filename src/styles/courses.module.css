@@ -60,10 +60,11 @@
   align-items: center;
   gap: 1rem;
   font-size: 1.1rem;
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 .card_header button {
   color: rgb(194, 198, 202);
+  font-size: 1.2rem;
   background: var(--bg-emphasis);
   border: none;
   outline: none;
@@ -99,7 +100,7 @@
   font-size: 1.2rem;
 }
 .lecturer span {
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 .card_footer {
   display: flex;

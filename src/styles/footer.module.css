@@ -1,0 +1,76 @@
+footer {
+  padding: 4rem 8rem;
+  background: #3e2869;
+}
+.footer_top {
+  display: grid;
+  grid-template-columns: 3fr 2fr 4fr;
+  gap: 2rem;
+}
+.footer_text {
+  padding: 0 4rem 0 2rem;
+}
+.footer_text p {
+  color: rgb(197, 202, 204);
+  margin-top: 3rem;
+  text-align: justify;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.logo img {
+  height: 25px;
+  width: 25px;
+}
+.logo h2 {
+  font-size: 2.6rem;
+  font-family: var(--fs-balinese);
+  color: var(--text-light);
+  letter-spacing: 1px;
+}
+.footer_links {
+  padding: 0 2rem;
+}
+.footer_links h3 {
+  letter-spacing: 1px;
+  margin: 2rem 0 3rem;
+}
+.footer_links .links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(197, 202, 204);
+}
+.contact_wrapper {
+  margin: 0 2rem;
+}
+.contact_wrapper h3 {
+  letter-spacing: 1px;
+  margin: 2rem 0 3rem;
+}
+.contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgb(197, 202, 204);
+}
+.contact p {
+  display: flex;
+  gap: 2rem;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(197, 202, 204);
+  margin: 2rem 2rem 0 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgb(197, 202, 204);
+}
+.social_links {
+  display: flex;
+  gap: 2rem;
+}

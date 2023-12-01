@@ -11,7 +11,7 @@
 .about_left p {
   font-size: 1.4rem;
   margin-top: 3rem;
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 .about_left button {
   margin-top: 5rem;
@@ -71,7 +71,7 @@
   margin-bottom: 0.4rem;
 }
 .card_details label {
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 /* ============= Responsiveness ============ */
 @media (max-width: 1200px) {

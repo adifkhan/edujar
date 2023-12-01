@@ -40,14 +40,14 @@
   margin-bottom: 0.5rem;
 }
 .user_info label {
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 .description {
   padding: 3rem 0;
   position: relative;
   font-size: 1.2rem;
   text-align: justify;
-  color: rgb(194, 198, 202);
+  color: rgb(197, 202, 204);
 }
 .navigator {
   display: flex;
